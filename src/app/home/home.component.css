@@ -33,6 +33,25 @@
     background-color: blue;
     animation: moveRight 1s linear infinite;
 }
+.metrics {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: inline-block;
+}
+
+.metrics p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.metrics strong {
+    color: #007bff;
+}
 
 @keyframes moveRight {
     0% {

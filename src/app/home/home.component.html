@@ -1,11 +1,15 @@
 <div id="app-container">
+    <h2>Box Manipulation Performance Test</h2>
     <div class="controls">
         <button (click)="addBoxes()">Add 10 Boxes</button>
         <button (click)="deleteBoxes()">Delete 10 Boxes</button>
     </div>
 
-    <!-- Kutu Sayacı -->
-    <p>Total Boxes: {{ boxCount }}</p>
+    <div class="metrics">
+        <p><strong>Total Boxes:</strong> {{ boxCount }}</p>
+        <p><strong>Last Operation Time:</strong> {{ lastOperationTime }} ms</p>
+    </div>
+    
 
     <div #boxContainer id="boxContainer"></div>
 </div>

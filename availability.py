@@ -27,5 +27,4 @@ def check_website_performance(url):
     except requests.Timeout:
         print(f"Request to {url} timed out.")
 
-# Replace 'http://example.com' with the URL of the website you want to test
 check_website_performance('http://localhost:4200/')
