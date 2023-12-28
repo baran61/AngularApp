@@ -1,0 +1,11 @@
+<div id="app-container">
+    <div class="controls">
+        <button (click)="addBoxes()">Add 10 Boxes</button>
+        <button (click)="deleteBoxes()">Delete 10 Boxes</button>
+    </div>
+
+    <!-- Kutu Sayacı -->
+    <p>Total Boxes: {{ boxCount }}</p>
+
+    <div #boxContainer id="boxContainer"></div>
+</div>
